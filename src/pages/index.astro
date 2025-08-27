@@ -1,0 +1,29 @@
+---
+import CollageTool from "../components/collage/CollageTool.vue";
+import "@/styles/base.css";
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>拼图工具（Astro + Vue）</title>
+  <script is:inline>
+  (function () {
+    try {
+      const KEY = 'theme';
+      let t = localStorage.getItem(KEY);
+      if (!t) {
+        t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    } catch {}
+  })();
+</script>
+  </head>
+  <body class="min-h-screen antialiased min-h-screen antialiased">
+    <div class="site-container container mx-auto p-4 md:p-10">
+      <CollageTool client:load />
+    </div>
+  </body>
+</html>

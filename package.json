@@ -1,0 +1,19 @@
+{
+  "name": "my-collage-astro",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.0.0",
+    "@astrojs/vue": "^5.1.0",
+    "astro": "^5.10.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "vue": "^3.4.0"
+  }
+}
