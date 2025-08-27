@@ -1,4 +1,4 @@
-# Puzzle Tool for Research Papers (Astro + Vue 3)
+# Puzzle Tool for Papers (Astro + Vue 3)
 
 > A lightweight, fast figure‑collage editor for academic papers — built with **Astro**, **Vue 3**, and **Tailwind CSS**. Supports stable row/column insert/delete and drag‑swap, bilingual UI, local history, and high‑quality PNG/PDF export.
 
@@ -87,7 +87,7 @@ src/
 
 ---
 
-# 研究论文拼图工具（Astro + Vue 3）
+# 论文拼图工具（Astro + Vue 3）
 
 > 一个轻量、快速的学术图片拼图编辑器，基于 **Astro**、**Vue 3** 和 **Tailwind CSS** 构建。支持行/列稳定的增删与拖拽交换，支持中英切换与本地历史记录保存，提供 PNG / PDF 高质量导出。
 
